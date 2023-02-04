@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+body {
+  background-color: blue;
+}
+
+.grid {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    background-color: white;
+  }
+  
+  .grid div {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .snake {
+    background-color: blue;
+  }
+  
+  .apple {
+    background-color: purple;
+  }
+
+.score {
+  margin-left: 65px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: Asap, sans-serif;
+  color: rgb(151, 202, 55);
+}
+
+.start {
+  margin-left: 50px;
+  margin-bottom: 6px;
+  font-family: Asap, sans-serif;
+  background-color: black;
+  color: beige;
+  transition: all 0.3s ease;
+}
+
+.start:hover {
+  cursor: pointer;
+    background: rgb(209, 32, 76);
+}
