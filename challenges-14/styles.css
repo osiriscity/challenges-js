@@ -18,11 +18,11 @@ body {
   }
   
   .snake {
-    background-color: blue;
+    background-color: rgb(5, 121, 11);
   }
   
   .apple {
-    background-color: purple;
+    background-color: rgb(189, 0, 0);
   }
 
 .score {
